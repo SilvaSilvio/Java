@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;AULA3.MethodEstatic&apos; to &apos;Pessoa&apos;&#x0A;- Original project: &apos;Curso JavaWeb&apos;&#x0A;- Original element: &apos;AULA3.MethodEstatic&apos;&#x0A;- Renamed element: &apos;AULA3.Pessoa&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MethodEstatic&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;AULA3{MethodEstatic.java[MethodEstatic" matchStrategy="1" name="Pessoa" qualified="false" references="true" similarDeclarations="false" stamp="1573300531172" textual="false" version="1.0"/>
+</session>

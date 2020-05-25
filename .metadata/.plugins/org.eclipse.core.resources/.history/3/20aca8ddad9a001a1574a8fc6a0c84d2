@@ -1,0 +1,7 @@
+package Exercicio;
+
+public class Relatorio {
+public void RelatorioGenerico(Produto produto) {
+	System.out.println("Relatório de Produtos");
+}
+}

@@ -1,0 +1,6 @@
+package Exercicio;
+
+public class Produto {
+String nome;
+String preco;
+}

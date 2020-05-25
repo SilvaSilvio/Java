@@ -1,0 +1,26 @@
+package Array;
+
+public class ArrayUnidimencional {
+
+	public static void main(String[] args) {
+		
+
+		}
+
+	}
+}
+
+
+/**	String[] nome = new String[4];
+nome[0] = "Silvio";
+nome[1] = "Sergio";
+nome[2] = "Darkson";
+nome[3] = "Maria José";
+
+for (int i = 0; i < nome.length; i++) {
+System.out.println(nome[i]);
+
+ * } System.out.println("--------");
+ * 
+ * for (String nomes : nome) { System.out.println(nomes); }
+ */

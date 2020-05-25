@@ -1,0 +1,32 @@
+package NIO;
+
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+public class CreatePathTest {
+	public static void main(String... args) {
+		/*
+		 * Path p = Paths.get("/home/silvio/eclipse-workspace", "Arquivo2.txt"); Path p1
+		 * = Paths.get("home", "silvio", "eclipse-workspace", "Arquivo2.txt"); Path p2 =
+		 * Paths.get("/home/silvio/eclipse-workspace", "Arquivo2.txt");
+		 * System.out.println(p.toAbsolutePath()); File file = p2.toFile(); Path path =
+		 * file.toPath();
+		 */
+		Path path1 = Paths.get("pastas");
+		try {
+			if(Files.notExists(path1)) {
+				Files.createDirectories(path1);
+				System.out.println("Diretório Criado");
+			}else{
+				Files.delete(path1);
+				System.out.println("Diretorio Deletado");
+			}
+			
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+}

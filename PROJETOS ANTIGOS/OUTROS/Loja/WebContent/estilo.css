@@ -1,0 +1,12 @@
+@charset "ISO-8859-1";
+
+
+.ui-datatable * {
+border: 0px !important;
+}
+.coluna1 {
+width: 10%;
+}
+.coluna2 {
+width: 90%;
+}

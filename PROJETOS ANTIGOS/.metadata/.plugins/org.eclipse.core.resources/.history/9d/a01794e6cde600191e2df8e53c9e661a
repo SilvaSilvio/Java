@@ -1,0 +1,20 @@
+package EXERCICIOS;
+
+import java.util.Scanner;
+
+public class CalculaMaiorFuncao {
+
+	public static void main(String[] args) {
+Scanner scan = new Scanner(System.in);
+int a, b, c;
+System.out.println("Enter three number");
+a = scan.nextInt();
+b = scan.nextInt();
+c = scan.nextInt();
+
+
+	
+	
+	}
+
+}

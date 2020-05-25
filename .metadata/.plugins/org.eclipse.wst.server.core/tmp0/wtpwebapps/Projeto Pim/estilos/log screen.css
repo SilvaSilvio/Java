@@ -1,0 +1,119 @@
+body{
+	
+	
+	height: 400px;
+	background-image: url("../imagens/ff4a.jpg");
+	background-color: white;
+	opacity: ;
+
+	
+}
+#idd{
+
+top: 10px;
+color:blue;
+font-size: 20px;
+margin-left: 16px;
+position: relative;
+color:red;
+
+}
+
+#acesso{
+
+margin-top: 200px;
+
+margin-left: 900px;
+
+height: 70%;
+background-color: white;
+width: 25%;
+border-radius:20px;
+opacity: 0.9;
+
+
+}
+#rr{
+	height: .5px;
+margin-top: 20px;
+background-color: #DCDCDC;
+border:none;
+;
+}
+#user{
+width: 300px;
+position: relative;
+margin-left:10px;
+margin-top: 18px;
+height: 30px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom-color: #DCDCDC;
+	outline: none;
+
+}
+#senha{
+	width: 300px;
+	position: relative;
+	margin-left: 10px;
+	margin-top: 50px;
+	height: 30px;
+
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom-color: #DCDCDC;
+	border-spacing: 4px;
+	outline: none;
+}
+#enviar{
+	margin-left: 13px;
+	margin-top: 36px;
+	width: 300px;
+	box-shadow: none;
+	box-sizing: none;
+
+	height: 40px;
+	background-color: #3CB363;
+
+}
+#topo{
+
+	width: 100%;
+	background-color: #1C1C1C;
+	position: absolute;
+	top:0px;
+	right: 0px;
+	left: 0px;
+	height: 60px;
+	opacity: 0.8;
+
+}
+#lab{
+	color: white;
+	top:16px;
+	font-size:23px;
+	position: relative;
+	left: 60px;
+}
+#roda{
+
+	top:590px;
+	right: 0px;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	align-items:  center;
+	color:white;
+	background-color: #1C1C1C;
+	position: absolute;
+	opacity: 0.8;
+}
+#el{
+	top:8px;
+	font-size:13px;
+	position: relative;
+	left: 500px;
+
+}

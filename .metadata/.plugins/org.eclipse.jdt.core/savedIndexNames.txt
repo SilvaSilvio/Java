@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+/home/silvio/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core
+3097091216.index
+1591552529.index
+2481983667.index
+646308851.index

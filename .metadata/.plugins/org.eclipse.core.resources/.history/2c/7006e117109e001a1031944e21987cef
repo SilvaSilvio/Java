@@ -1,0 +1,32 @@
+package Array;
+
+public class ArrayUnidimencional {
+
+	public static void main(String[] args) {
+		int[][] dias = new int[2][2];
+		dias[0][0] = 2;
+		dias[0][1] = 1;
+		dias[1][0] = 4;
+		dias[1][1] = 6;
+
+		// System.out.println(dias.length);
+
+		for (int i = 0; i < dias.length; i++) {
+			for (int j = 0; j < dias.length; j++) {
+				System.out.println(dias[i][j]);
+			}
+		}
+
+		// Array multidimensionais
+		int[][] numero = new int[3][];
+		numero[0] = new int[2];
+		numero[1] = new int[3];
+		numero[2] = new int[4];
+		for (int[] arr : numero) {
+			for (int num : arr) {
+				
+			}
+		}
+
+	}
+}

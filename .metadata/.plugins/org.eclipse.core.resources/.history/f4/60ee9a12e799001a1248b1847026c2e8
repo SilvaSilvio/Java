@@ -1,0 +1,9 @@
+package Arquivo;
+
+public interface ArquivoDAO {
+
+	
+	public void save();
+	
+	
+}

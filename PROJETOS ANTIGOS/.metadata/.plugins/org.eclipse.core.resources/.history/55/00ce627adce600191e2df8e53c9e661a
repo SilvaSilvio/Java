@@ -1,0 +1,20 @@
+package Produtos;
+
+public class Produtos {
+	public String nome;
+	public double preco;
+	public int quant;
+
+	public double totalProdutoEstoque() {
+		return preco * quant;
+	}
+
+	public void EntradaProdutoEstoque(int quantidade) {
+		this.quant += quantidade;
+	}
+
+	public void SaidaProdutoEstoque(int quantidade) {
+		this.quant -= quantidade;
+	}
+
+}

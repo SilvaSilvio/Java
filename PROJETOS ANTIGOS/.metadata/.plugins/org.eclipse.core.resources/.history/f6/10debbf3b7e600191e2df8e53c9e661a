@@ -1,0 +1,11 @@
+package TERNARIO;
+
+public class Ternario {
+
+	public static void main(String[] args) {
+int x = 5;
+if(x == 4) ? true : false;
+
+	}
+
+}

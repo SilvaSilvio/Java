@@ -1,0 +1,9 @@
+package Tokens;
+
+public class Tokenstest {
+
+	public static void main(String[] args) {
+String[] tokens =args str.Sprit();
+	}
+
+}

@@ -1,0 +1,14 @@
+package Conexao;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class ConexaoFactory {
+	
+	public Connection getConexao() {
+		String url = "jdbc:postgresql://localhost/projeto";
+		String usuario = "postgres";
+		String senha = "postgres";
+		Connection connection = DriverManager.getConnection(url, usuario, senha);
+	}
+}

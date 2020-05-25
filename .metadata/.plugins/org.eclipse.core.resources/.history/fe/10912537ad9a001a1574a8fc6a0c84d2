@@ -1,0 +1,13 @@
+package Exercicio;
+
+public class Produto implements Tributavel {
+String nome;
+String preco;
+
+
+@Override
+public void valorTributavel() {
+	// TODO Auto-generated method stub
+	
+}
+}

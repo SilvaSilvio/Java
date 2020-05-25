@@ -1,0 +1,13 @@
+package ExercicioTesteMain;
+
+import Exercicio.Produto;
+
+public class ProdutoTesteMain {
+
+	public static void main(String[] args) {
+		Produto p = new Produto("Arroz", 12);
+		Relatorio r = new Relatorio();
+
+	}
+
+}

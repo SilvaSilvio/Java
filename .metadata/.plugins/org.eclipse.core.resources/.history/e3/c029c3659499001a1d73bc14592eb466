@@ -1,0 +1,32 @@
+package Polimorfismo;
+
+public class RelatorioPagamento {
+	Gerente gerente = new Gerente("", 0.0);
+	Vendedor vendedor = new Vendedor("", 0.0, 0);
+	public void relatorioPagamentoGerente( Gerente gerente ) {
+		System.out.println("Gerando relatório de pagamento para gerencia");
+		gerente.calcularSalario();
+		System.out.println("Nome: " + gerente.getNome());
+		System.out.println("Salario: " + gerente.getSalario());
+		System.out.println("------------------------------");
+	}
+	
+	public void relatorioPagamentoVendedor(Vendedor vendedor ) {
+		vendedor.calcularSalario();
+		System.out.println("Nome: " + vendedor.getNome());
+		System.out.println("Salario: " + vendedor.getSalario());
+		System.out.println("------------------------------");
+	}
+	
+	public void relatorioPagamentoGenerico( Funcionario funcionario ) {
+		
+		funcionario.calcularSalario();
+		System.out.println("Nome: " + funcionario.getNome());
+		System.out.println("Salario: " + funcionario.getSalario());
+		Gerente g = (Gerente) funcionario;
+		System.out.println("PLR: " + gerente.getParticipacaoNoLucro());
+		System.out.println("Total de vendas: " + vendedor.getTotalVendas() );
+		
+		System.out.println("-------------------------------");
+	}
+}

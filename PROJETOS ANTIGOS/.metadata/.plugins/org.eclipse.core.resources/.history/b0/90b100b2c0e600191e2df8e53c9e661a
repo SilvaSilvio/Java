@@ -1,0 +1,23 @@
+package EstruturaRepeticao;
+
+import java.util.Scanner;
+
+public class doWhile {
+
+	public static void main(String[] args) {
+Scanner scan = new Scanner(System.in);
+boolean repetir = true;
+float celsius;
+float farh = 0;
+do {
+	System.out.println("Digite a temperatura em Celsius: ");
+	celsius = scan.nextFloat();
+	farh = 9*celsius/5 + 32;
+	System.out.printf("O Valor é ", farh);
+	System.out.println("Deseja repetir");
+	
+}while(repetir == false);
+	}
+	
+
+}

@@ -1,0 +1,54 @@
+package Array;
+
+import java.util.Scanner;
+
+public class ArrayUnidimencional {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+
+		int[][] dias = new int[2][2];
+		dias[0][0] = 2;
+		dias[0][1] = 1;
+		dias[1][0] = 4;
+		dias[1][1] = 6;
+
+		// System.out.println(dias.length);
+
+		for (int i = 0; i < dias.length; i++) {
+			for (int j = 0; j < dias.length; j++) {
+				System.out.println(dias[i][j]);
+			}
+		}
+		System.out.println("---------------");
+
+		// Array multidimensionais
+		int[][] numero = new int[3][];
+		numero[0] = new int[2];
+		numero[1] = new int[3];
+		numero[2] = new int[4];
+		for (int[] arr : numero) {
+			for (int num : arr) {
+				System.out.println(num);
+			}
+		}
+
+		String nome;
+		float nota;
+
+		System.out.println("Digite o nome do aluno: ");
+		nome = scan.nextLine();
+		System.out.println("Informe a nota do aluno: ");
+		nota = scan.nextFloat();
+
+		System.out.println("O nome do aluno é " + nome);
+		System.out.println("Nota: " + nota);
+
+		if (nota <= 6) {
+			System.out.println("O aluno " + nome + "reprovou com nota " + nota + " :-( ");
+		} else {
+			System.out.println("Parabens, voce foi aprovado com nota " + nota);
+		}
+
+	}
+}

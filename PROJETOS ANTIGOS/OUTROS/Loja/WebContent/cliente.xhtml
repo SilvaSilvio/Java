@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<ui:composition template="template.xhtml"
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+	<ui:define name="corpo">
+		<h:form id="form">
+			<p:messages autoUpdate="true" />
+			<center>
+				<p:panel header="Cadastro">
+					<p:commandButton value="Criar Cadastro" type="button"
+						style="width:200px;" onclick="PF('cadastro').show() "/>
+					<br />
+					<br />
+					<p:inputText id="email" value="#{clienteController.login}"
+						style="width:200px;" />
+					<br />
+					<br />
+					<p:watermark for="email" value="Digite o email" />
+					<p:password id="senha" value="#{clienteController.senha}"
+						style="width:200px;" />
+					<br />
+					<br />
+					<p:watermark for="senha" value="Senha" />
+					<p:commandButton value="Entrar"
+						action="#{clienteController.autenticar}" style="width:200px;" />
+				</p:panel>
+			</center>
+		</h:form>
+		<h:form id="formDialog">
+			<p:dialog modal="true" id="cadastro" widgetVar="cadastro"
+				header="Faça seu cadastro">
+				<p:messages autoUpdate="true" />
+				<h:panelGrid columns="2">
+					<h:outputText value="Nome:" />
+					<p:inputText value="#{clienteController.cliente.nome}" />
+					<h:outputText value="Senha:" />
+					<p:password match="senha2"
+						value="#{clienteController.cliente.senha}" label="Senha 1"
+						required="true" feedback="true" weakLabel="Fraca" goodLabel="Boa"
+						strongLabel="Forte" validatorMessage="Senhas são diferentes"
+						promptLabel="Digite a senha" />
+					<h:outputText value="Repita a senha:" />
+					<p:password id="senha2" value="#{clienteController.senha2}"
+						label="Senha 2" required="true" feedback="true" />
+					<h:outputText value="Login:" />
+					<p:inputText value="#{clienteController.cliente.login}" />
+					<h:outputText value="Bairro:" />
+					<p:inputText value="#{clienteController.cliente.bairro}" />
+					<h:outputText value="Cidade:" />
+					<p:inputText value="#{clienteController.cliente.cidade}" />
+					<h:outputText value="Estado:" />
+					<p:inputText value="#{clienteController.cliente.estado}" />
+					<h:outputText value="Cep:" />
+					<p:inputMask mask="99.999-999"	value="#{clienteController.cliente.cep}" />
+					<h:outputText value="Endereço:" />
+					<p:inputText value="#{clienteController.cliente.endereco}" />
+					<p:commandButton value="Gravar" icon="ui-icon-disk"
+						action="#{clienteController.confirmar}"></p:commandButton>
+				</h:panelGrid>
+			</p:dialog>
+		</h:form>
+	</ui:define>
+</ui:composition>

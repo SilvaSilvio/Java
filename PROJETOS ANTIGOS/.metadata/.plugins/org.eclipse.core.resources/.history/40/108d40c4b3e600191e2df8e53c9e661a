@@ -1,0 +1,23 @@
+package EXERCICIOS;
+
+import java.util.Scanner;
+
+public class PlanoTelefone {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		int plano=0;
+		int minutos = 0;
+		float resultado;
+		System.out.println("Digite a quantidade de minutos falados");
+		minutos = scan.nextInt();
+		if (minutos <= 100) {
+			plano = 50;
+		} else if (minutos > 100) {
+			plano = minutos + (minutos - 100) * 2;
+		}
+		System.out.println("O valor a ser pago pelo cliente é: " + plano);
+	
+	}
+	
+}

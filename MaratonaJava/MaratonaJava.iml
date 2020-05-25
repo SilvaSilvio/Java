@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Associação" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Classe Abstrata" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Coleções" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Datas" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Exception" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ExpressoesRegulares" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Herança" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interface" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Introducão" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JDBC" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Metodo Final" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Metodos e Sobrecarga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Modificador Estatico" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/NIO" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Polimorfismo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resource Bundle" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/String" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Token" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Wio" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Wraper" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

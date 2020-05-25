@@ -1,0 +1,19 @@
+package EXERCICIOS;
+
+public class CalculoPecas {
+
+	public static void main(String[] args) {
+		int quantPeca1 = 5;
+		double valorpeca1 = 4.50;
+		int quantpeca2 =2;
+		float valorpea2 = 8;
+		
+		double resultado = quantPeca2 * valorPeca1 + quantpeca2 *valorpea2;
+		System.out.println("O valor da compra é: " resultado);
+		
+		
+		
+
+	}
+
+}

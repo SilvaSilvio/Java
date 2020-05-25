@@ -1,0 +1,22 @@
+
+public @interface Exception {
+/*
+ * Todas as excessões são filhas da classe Throwable.
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * */
+}

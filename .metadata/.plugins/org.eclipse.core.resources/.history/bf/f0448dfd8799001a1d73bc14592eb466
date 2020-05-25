@@ -1,0 +1,13 @@
+package Polimorfismo;
+
+public class Vendedor extends Funcionario {
+	private double totalVendas;
+
+	@Override
+	public void calcularSalario() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+}

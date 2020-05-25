@@ -1,0 +1,19 @@
+package Array;
+
+public class Array {
+
+	public static void main(String[] args) {
+		int[] idade = new int[5] ;
+		idade[0] = 2;
+		idade[2] = 3;
+		idade[5]= 5;
+		
+		for (int i : idade) {
+			System.out.println(i);
+		}
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+package Teste;
+
+public class ExceptionTesteMain {
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package PolimorfismoTesteMain;
+
+import Arquivo.ArquivoDAOImpl;
+
+public class DAOTestMain {
+
+	public static void main(String[] args) {
+		ArquivoDAOImpl aqquivoDAO = new ArquivoDAOImpl();
+
+	}
+
+}

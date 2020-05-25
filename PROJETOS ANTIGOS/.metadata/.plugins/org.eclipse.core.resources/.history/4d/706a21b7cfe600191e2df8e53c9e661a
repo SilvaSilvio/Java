@@ -1,0 +1,14 @@
+package EXERCICIOS;
+
+import java.util.Locale;
+
+public class menorValor {
+
+	public static void main(String[] args) {
+Locale.setDefault(Locale.US);
+Scanner scan = new Scanner(System.in);
+int a,b,c;
+System.out.println("Digite 3 numeros: ");
+	}
+
+}

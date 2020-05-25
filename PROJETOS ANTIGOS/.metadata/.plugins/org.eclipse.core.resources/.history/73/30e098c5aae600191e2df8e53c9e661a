@@ -1,0 +1,16 @@
+package EXERCICIOS;
+
+public class CalculoFuncionario {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int matricula;
+		float horasTrabalhadas;
+		float valorHora;
+		
+		System.out.println("Digite a matricula");
+		
+
+	}
+
+}

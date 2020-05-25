@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="Metodos e Sobrecarga"/>
+	<classpathentry kind="src" path="Associação"/>
+	<classpathentry kind="src" path="Modificador Estatico"/>
+	<classpathentry kind="src" path="Introducão"/>
+	<classpathentry kind="src" path="Herança"/>
+	<classpathentry kind="src" path="Metodo Final"/>
+	<classpathentry kind="src" path="Classe Abstrata"/>
+	<classpathentry kind="src" path="Interface"/>
+	<classpathentry kind="src" path="Polimorfismo"/>
+	<classpathentry kind="src" path="Exception"/>
+	<classpathentry kind="src" path="Wraper"/>
+	<classpathentry kind="src" path="String"/>
+	<classpathentry kind="src" path="Datas"/>
+	<classpathentry kind="src" path="ExpressoesRegulares"/>
+	<classpathentry kind="src" path="Token"/>
+	<classpathentry kind="src" path="Resource Bundle"/>
+	<classpathentry kind="src" path="Wio"/>
+	<classpathentry kind="src" path="NIO"/>
+	<classpathentry kind="src" path="JDBC"/>
+	<classpathentry kind="src" path="Lib"/>
+	<classpathentry kind="src" path="Coleções"/>
+	<classpathentry kind="lib" path="/home/silvio/Downloads/postgresql-42.2.6.jar"/>
+	<classpathentry kind="lib" path="/home/silvio/Downloads/OUTROS/postgresql-42.2.6.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

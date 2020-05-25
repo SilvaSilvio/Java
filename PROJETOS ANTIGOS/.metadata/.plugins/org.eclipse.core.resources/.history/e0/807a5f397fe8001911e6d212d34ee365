@@ -1,0 +1,30 @@
+package Vetores;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class VetorClass {
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner scan = new Scanner(System.in);
+		int n;
+		double soma = 0.0;
+		System.out.println("Numero");
+		n = scan.nextInt();
+
+		Produtos[] vect = new Produtos[n];
+
+		for (int i = 0; i < n; i++) {
+		//	System.out.println("Nome Produto: ");
+			String nome = scan.nextLine();
+	//		System.out.println("Preço:");
+			double preco = scan.nextDouble();
+
+			vect[i] = new Produtos(nome, preco);
+			soma += vect[i].getPreco();
+		}
+		System.out.println("A soma total dos produtos é: " + soma);
+
+		scan.close();
+	}
+}

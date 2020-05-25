@@ -1,0 +1,10 @@
+package NIO;
+
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+public class CreatePathTest {
+public static void main(String... args) {
+	Path p = Paths.get("/home/silvio/eclipse-workspace", "Arquivo2.txt");
+}
+}

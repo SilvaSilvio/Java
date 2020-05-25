@@ -1,0 +1,182 @@
+#menu{
+position: absolute;
+background-color: black;
+top: 9%;
+left: 0px;
+      color: white;
+       width: 12%;
+
+      height: 91%
+
+    }
+
+    ul{
+list-style: none;
+margin-left: 1px;
+padding-left: 18%;
+font-size: 110%;
+top:13%;
+
+
+
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    li{
+  padding-top: 2px;
+    }
+
+    #topside{
+position: absolute;
+      width: 100%;
+      background-color: black;
+      right: 0%;
+      height: 11%;
+      color: white;
+      font-size: 130%;
+      top:0%;
+
+          }
+
+   
+
+
+li a:hover{
+
+display: block;
+background-color: blue;
+}
+
+.sub{
+  overflow: hidden;
+  max-height: 0;
+ 
+
+}
+
+ul li:hover .sub{
+  display:  block; 
+  max-height: 200px;
+}
+
+p{
+position: absolute;
+left: 4%;
+top:-10%;
+}
+#pe{
+left: 92%;
+font-size:80%;
+top:-4%;
+
+}
+#im{
+
+  position: absolute;
+  padding-left: 1%;
+  left: 0.3%;
+  top:3.5%;
+}
+#im1{
+  position: absolute;
+padding-left: 1%;
+left:0.3%;
+}
+#im2{
+position: absolute;
+padding-left: 1%;
+left:0.3%;
+
+}
+#im3{
+  position: absolute;
+  left: 99.6%;
+  top:-6%;
+
+}
+#im4{
+
+  position: absolute;
+
+  top:-3%;
+  left: 80%;
+
+
+
+
+}
+#im5{
+
+	position: absolute;
+padding-left: 1%;
+	left: 0.8%;
+
+}
+#igg{
+
+   position: absolute;
+
+  left: 58%;
+  top:45%;
+} 
+
+#Nome{
+
+border-top:none;
+border-left: none;
+border-right: none;
+border-color: black;
+outline: none;
+position: absolute;
+top: 0%;
+left: -200%;
+
+
+}
+#valor{
+  border-top:none;
+border-left: none;
+border-right: none;
+border-color: black;
+outline: none;
+position: absolute;
+top:0%;
+left: 60%;
+}
+#tag{
+
+  position: absolute;
+  width: 86.4%;
+  background-color: red;
+  padding-left: 0%;
+  left: 12.8%;
+  top: 37%;
+}
+#aia{
+position: absolute;
+top:31.6%;
+left:33%;
+}
+#aia2{
+position: absolute;
+top:31.6%;
+left:69%;
+}
+.btn1{
+  
+ border-radius:  20px;
+ background-color: black;
+ border-color: black;
+ box-shadow: none;
+ box-sizing: none;
+ color: white;
+ outline: none;
+
+}
+#a1{
+margin-left: -74.2%;
+margin-top: 14%;
+}

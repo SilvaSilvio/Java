@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;teste.teste.java&apos; to &apos;B_ExemploSqlInjection.java&apos;&#x0A;- Original project: &apos;teste&apos;&#x0A;- Original element: &apos;teste.teste.java&apos;&#x0A;- Renamed element: &apos;teste.B_ExemploSqlInjection.java&apos;" description="Rename compilation unit &apos;teste.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;teste{teste.java" name="B_ExemploSqlInjection.java" references="false" stamp="1575202262571" version="1.0"/>
+</session>

@@ -1,0 +1,16 @@
+package EstruturaRepeticao;
+
+import java.util.Scanner;
+
+public class doWhile {
+
+	public static void main(String[] args) {
+Scanner scan = new Scanner(System.in);
+boolean repetir = true;
+do {
+	
+}while(repetir == false);
+	}
+	
+
+}

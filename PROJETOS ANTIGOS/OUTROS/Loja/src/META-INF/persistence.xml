@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE xml>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0">
+<persistence-unit name="loja">
+<class>model.entity.Cliente</class>
+<class>model.entity.ItemPedido</class>
+<class>model.entity.Livro</class>
+<class>model.entity.Pedido</class>
+<properties>
+<property name="hibernate.hbm2ddl.auto" value="update" />
+<property name="hibernate.show_sql" value="true" />
+<property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect" />
+<property name="hibernate.connection.driver_class" value="org.postgresql.Driver" />
+<property name="hibernate.connection.url" value="jdbc:postgresql://localhost/loja" />
+<property name="hibernate.connection.username" value="postgres" />
+<property name="hibernate.connection.password" value="Beuga" />
+</properties>
+</persistence-unit>
+</persistence>

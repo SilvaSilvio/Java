@@ -1,0 +1,9 @@
+package InterfacesTeste;
+
+public interface Transportavel {
+
+	public abstract void calcularFrete();
+	public abstract void teste(); 
+	
+	
+}

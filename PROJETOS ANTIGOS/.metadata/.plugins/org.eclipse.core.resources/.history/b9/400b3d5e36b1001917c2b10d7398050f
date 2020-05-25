@@ -1,0 +1,22 @@
+package Tokens;
+
+import java.util.Scanner;
+
+public class Tokenstest {
+
+	public static void main(String[] args) {
+		String nomes = "Ramalho, marco, picachu, goku, gohan";
+		String[] tokens = nomes.split(",");
+		for (String arrayNome : tokens)
+			System.out.println(arrayNome.trim());
+	
+	Scanner scanner = new Scanner("1, beuga, almoço, café");
+	while(scanner.hasNext()) {
+		if(scanner.hasNextInt()) {
+		int i = scanner.nextInt("int" + i);
+			
+			
+			System.out.println(scanner.next().trim());
+	}
+	}
+}

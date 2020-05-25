@@ -1,0 +1,28 @@
+package List;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	List<String> list = new ArrayList<>();
+	
+	
+	list.add("Ana");
+	list.add("João");
+	list.add("Matheus");
+	list.add(2, "Silvio");
+	
+	for (String nome : list.size()) {
+		System.out.println(nome);
+		
+	}
+	
+	
+	
+	}
+
+}

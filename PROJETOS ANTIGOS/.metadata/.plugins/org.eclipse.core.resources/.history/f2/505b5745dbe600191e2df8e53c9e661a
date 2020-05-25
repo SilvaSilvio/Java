@@ -1,0 +1,15 @@
+package Produtos;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		Produtos p = new Produtos();
+		p.nome = "Macarrão";
+		p.preco = 12.0;
+		p.quant = 4;
+		p.calcularProduto();
+		p.Status();
+
+	}
+
+}

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+	<h:head>
+		<link href="estilo.css" type="text/css" rel="stylesheet" />
+	</h:head>
+	<h:body>
+		<h:form id="formTitulo">
+			<p:growl autoUpdate="true" />
+			<p:toolbar id="pesquisa">
+				<p:toolbarGroup align="left">
+					Titulo:
+					<p:inputText value="#{livroController.titulo}" />
+					<p:commandButton value="Pesquisar" action="livro"
+						ajax="false" actionListener="#{livroController.consultar()}" />
+					<p:commandButton value="Carrinho"
+						action="#{clienteController.finalizar}"
+						rendered="#{not empty pedidoController.pedido.itens}" ajax="false" />
+				</p:toolbarGroup>
+				<p:toolbarGroup align="right">
+					<p:commandButton value="Entrar" action="cliente"
+						ajax="false" rendered="#{clienteController.cliente.login == null}" />
+					<p:menuButton
+						value="#{clienteController.cliente.nome}"
+						rendered="#{clienteController.cliente.login != null}">
+						<p:menuitem value="Meus Pedidos" ajax="false"
+							action="#{pedidoController.consultarPorCliente(clienteController.cliente)}" />
+						<p:menuitem value="Sair" action="livro"
+							actionListener="#{clienteController.sair}" update="@all" />
+					</p:menuButton>
+				</p:toolbarGroup>
+			</p:toolbar>
+		</h:form>
+		<ui:insert name="corpo" />
+		<h:form id="formCarrinho">
+			<p:dialog widgetVar="carrinho" id="carrinho" modal="true"
+				hideEffect="puff" width="800" showEffect="explode"
+				header="Carrinho de Compras" position="center center">
+				<p:dataTable value="#{pedidoController.pedido.itens}"
+					var="item" id="listaItem" emptyMessage="Seu carrinho está vazio">
+					<p:column footerText="Total">#{item.livro.titulo}</p:column>
+					<p:column>
+						<h:outputText value="#{item.livro.valor}">
+							<f:convertNumber pattern="###,##0.00" />
+						</h:outputText>
+					</p:column>
+					<p:column>
+						<h:inputText value="#{item.quantidade}"
+							style="width:30px;" />
+					</p:column>
+					<p:column>
+						<h:outputText value="#{item.valor}">
+							<f:convertNumber pattern="###,##0.00" />
+						</h:outputText>
+						<f:facet name="footer">
+							<h:outputText
+								value="#{pedidoController.pedido.valor}">
+								<f:convertNumber pattern="###,##0.00" />
+							</h:outputText>
+						</f:facet>
+					</p:column>
+					<p:column>
+						<p:commandButton icon="ui-icon-trash"
+							actionListener="#{pedidoController.excluirItem(item)}"
+							update=":formTitulo:pesquisa :formCarrinho:listaItem :formCarrinho:botoes" />
+					</p:column>
+				</p:dataTable>
+				<h:panelGroup id="botoes">
+					<p:commandButton value="Atualizar Carrinho"
+						rendered="#{not empty pedidoController.pedido.itens}"
+						update=":formCarrinho:listaItem" />
+					<p:commandButton value="Finalizar Compra"
+						rendered="#{not empty pedidoController.pedido.itens}"
+						action="cliente" ajax="false" />
+				</h:panelGroup>
+			</p:dialog>
+		</h:form>
+	</h:body>
+</html>

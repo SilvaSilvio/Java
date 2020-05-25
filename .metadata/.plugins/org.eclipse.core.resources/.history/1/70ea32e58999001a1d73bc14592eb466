@@ -1,0 +1,30 @@
+package Polimorfismo;
+
+public class Gerente extends Funcionario {
+	private double participacaoNoLucro;
+
+	public Gerente(String nome, String clt, double salario) {
+		super(nome, clt, salario);
+	}
+
+	@Override
+	public void calcularSalario() {
+		this.Salario = this.Salario + (this.Salario * 0.2);
+
+	}
+
+	@Override
+	public void imprime() {
+		System.out.println("Dentro da classe Gerente");
+
+	}
+
+	public double getParticipacaoNoLucro() {
+		return participacaoNoLucro;
+	}
+
+	public void setParticipacaoNoLucro(double participacaoNoLucro) {
+		this.participacaoNoLucro = participacaoNoLucro;
+	}
+
+}

@@ -1,0 +1,14 @@
+package Produtos;
+
+public class Produtos {
+public String nome;
+public double preco;
+public int quant;
+
+public double calcularProduto() {
+
+	return this.preco * this.quant;
+	
+		
+}
+}

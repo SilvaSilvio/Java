@@ -1,0 +1,40 @@
+package List;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class ListArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	List<String> list = new ArrayList<>();
+	
+			
+	list.add("Ana");
+	list.add("João");
+	list.add("Matheus");
+	list.add("Malone");
+	list.add(2, "Silvio");
+	System.out.println(list.size());
+	
+	
+	
+	for (String nome : list) {
+		System.out.println(nome);
+		
+	}
+	list.removeIf(x -> x.charAt(0) == 'M');
+	System.out.println(list.size());
+	for (String nome : list) {
+		System.out.println(nome);
+		
+	}
+	System.out.println("Index Silvio: " + list.indexOf("Silvio"));
+	List<String> result = list.stream().filter(x -> x.charAt(0) == 'M').collect(Collectors.toList());
+	System.out.println(result);
+	
+	}
+
+}

@@ -1,0 +1,9 @@
+1576197755771	Move 'style.css' to 'css'
+1576197761691	Delete element
+1576197780766	Move 'js' to 'WebContent'
+1576246751471	Move 'Enviar.jsp' to 'WebContent'
+1576246756702	Move 'Receber.jsp' to 'WebContent'
+1576323694197	Move 'aprovado.jsp' to 'WebContent'
+1576323698645	Move 'Reprovado.jsp' to 'WebContent'
+1576325227008	Rename resource 'Reprovado.jsp'
+1576325240363	Rename resource 'aprovado.jsp'

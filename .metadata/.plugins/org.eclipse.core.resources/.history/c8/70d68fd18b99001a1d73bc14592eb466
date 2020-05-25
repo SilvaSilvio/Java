@@ -1,0 +1,14 @@
+package PolimorfismoTesteMain;
+
+import Polimorfismo.Gerente;
+import Polimorfismo.RelatorioPagamento;
+
+public class PolimorfismoTesteMain {
+
+	public static void main(String[] args) {
+		Gerente g = new Gerente("Silvio", 1500);
+		RelatorioPagamento relatorio = new RelatorioPagamento();
+
+	}
+
+}

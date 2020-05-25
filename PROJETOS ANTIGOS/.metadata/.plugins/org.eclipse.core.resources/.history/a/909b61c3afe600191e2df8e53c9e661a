@@ -1,0 +1,17 @@
+package ESTRUTURASCONDICIONAIS;
+
+import java.util.Scanner;
+
+public class EstruturasCondicionais {
+
+	public static void main(String[] args) {
+Scanner scan = new Scanner(System.in);
+System.out.println("Quantas Horas");
+	int horas = scan.nextInt();
+	
+	
+	
+	
+	}
+
+}

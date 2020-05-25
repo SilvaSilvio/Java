@@ -1,0 +1,9 @@
+package Polimorfismo;
+
+public abstract class Funcionario {
+private String nome;
+private Double Salario;
+
+
+
+}

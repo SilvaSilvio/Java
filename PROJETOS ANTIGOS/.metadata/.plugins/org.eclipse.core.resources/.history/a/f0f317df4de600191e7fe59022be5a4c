@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class TESTE {
+public static void main(String[] args) {
+	Scanner scan = new Scanner(System.in);
+	double pi = 3.14159;
+	double raio = 0;
+	double area = pi * (raio * raio);
+	
+	System.out.println("informe qual a área");
+	raio = scan.nextDouble();
+	System.out.printf("A Area do cirulo é %.4f%" +  area);
+	
+	
+}
+}

@@ -1,0 +1,13 @@
+package Exercicio;
+
+public class Produto implements Tributavel {
+String nome;
+double preco;
+
+
+@Override
+public void valorTributavel() {
+	double precofinal = this.preco + ( preco * IMPOSTO );	
+	System.out.println("Preço final");
+}
+}

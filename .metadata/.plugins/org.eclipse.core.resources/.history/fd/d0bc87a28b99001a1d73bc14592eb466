@@ -1,0 +1,32 @@
+package Polimorfismo;
+
+public class Vendedor extends Funcionario {
+	private double totalVendas;
+	
+	public Vendedor(String nome, String clt, Double salario, double totalVendas ) {
+		super(nome, clt, salario);
+		this.totalVendas = totalVendas;
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void calcularSalario() {
+		this.Salario = this.Salario + ( totalVendas * 0.05 );
+	}
+	
+	@Override
+	public void imprime() {
+		System.out.println("Dentro do metodo imprimi");
+	}
+
+	public double getTotalVendas() {
+		return totalVendas;
+	}
+
+	public void setTotalVendas(double totalVendas) {
+		this.totalVendas = totalVendas;
+	}
+	
+	
+	
+}

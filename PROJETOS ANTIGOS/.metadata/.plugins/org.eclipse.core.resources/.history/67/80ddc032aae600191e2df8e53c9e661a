@@ -1,0 +1,11 @@
+package EXERCICIOS;
+
+public class ProdutoDiferenca {
+
+	public static void main(String[] args) {
+float A, B, C,D;
+float diferenca = A*B - C*D;
+System.out.println(diferenca);
+	}
+
+}

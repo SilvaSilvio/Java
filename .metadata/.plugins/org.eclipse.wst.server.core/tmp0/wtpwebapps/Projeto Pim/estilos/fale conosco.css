@@ -1,0 +1,163 @@
+	#ak{
+
+		position: absolute;
+
+		left: 29%;
+		top: 59%;
+
+	}
+	#ak1{
+
+	position: absolute;
+
+		left: 54%;
+		top: 64%;
+
+	}
+	#imm{
+			position: absolute;
+
+		left: 27%;
+		top: 70%;
+		color: black;
+		width: 18%;
+		}
+		#p1{
+			position: absolute;
+			top: 10%;
+
+
+		}
+		#insta{
+		position: absolute;
+
+		left: 150.5%;
+		top: 28%;
+		color: black;
+		width: 40%;
+		outline: none;
+		}
+
+			#is{
+			position: absolute;
+			width: 20%;
+			top:10%;
+
+
+		}
+
+		#ak3{
+			position: absolute;
+		left: 80%;
+		top: 59%;
+
+
+		}
+		#email{
+		position: absolute;
+
+		left: 77.5%;
+		top: 70%;
+		color: black;
+		width: 18%;
+		}		
+
+		#e1{
+			position: absolute;
+			width: 20%;
+			top:10%;
+
+
+		}
+		#horario{
+
+
+			position: absolute;
+			top: 42%;
+			left: 80%;
+			width: 20%;
+			font-family:arial;
+		}
+		#txt1{
+
+			position: absolute;
+
+		}
+		#txt2{
+			position: absolute;
+
+			top:1%;
+			left: 0%;
+		}
+
+		#txt3{
+
+			position: absolute;
+			top:-1%;
+		}
+
+
+		#ak4{
+				position: absolute;
+			top: 35.5%;
+			left: 86.5%;
+		
+
+		}
+		#ak5{
+
+		position: absolute;
+
+		left: 47%;
+		top: 73%;
+
+
+
+		}
+
+		#ak6{
+
+			position: absolute;
+
+		left: 47%;
+		top: 63%;
+
+		}
+
+		#ak7{
+			position: absolute;
+
+		left: 61%;
+		top: 73%;}
+		#ak8{
+			position: absolute;
+			left: 61%;
+			top: 63%;
+		}
+
+		#fl{
+			position: absolute;
+			top: 28%;
+			left: 25%;
+			width: 20%;
+			font-family:Arial;
+			font-size: 40px;
+
+
+
+		}
+		#fl1{
+
+			position: absolute;
+		}
+		#fl2{
+			position: absolute;
+
+			top:-2%;
+			left: 3%;
+			
+
+
+		}
+
+

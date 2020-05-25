@@ -1,0 +1,10 @@
+package Tokens;
+
+public class Tokenstest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

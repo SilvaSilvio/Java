@@ -1,0 +1,32 @@
+package Construtor;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Teste {
+
+		public static void main(String[] args) {
+			Locale.setDefault(Locale.US);
+			Scanner scan = new Scanner(System.in);
+
+			Construtor p = new Construtor();
+			System.out.println("DADOS DO PRODUTO");
+			System.out.print("Nome: ");
+			p.nome = scan.nextLine();
+			System.out.print("Preço: ");
+			p.preco = scan.nextDouble();
+			System.out.println("Quantidade: ");
+			p.quant = scan.nextInt();
+			
+			p.status();
+			p.EntradaProdutoEstoque(5);
+			p.status();
+			//p.SaidaProdutoEstoque(3);
+			//p.totalProdutoEstoque();
+
+		}
+
+	}
+
+
+}

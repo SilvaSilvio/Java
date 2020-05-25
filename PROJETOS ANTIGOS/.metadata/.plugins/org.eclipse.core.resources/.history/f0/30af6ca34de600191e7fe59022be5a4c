@@ -1,0 +1,10 @@
+
+public class TESTE {
+public static void main(String[] args) {
+	int x = 3;
+	double y = 3.1277;
+	System.out.println(x);
+	System.out.printf("%.2f%n", y);
+
+}
+}

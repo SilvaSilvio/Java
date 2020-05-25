@@ -1,0 +1,39 @@
+package ExpressoesRegulares;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class ExpressoesRegulares {
+	public static void main(String[] args) {
+		String regex = "amo";
+		String texto = "Eu te amo muito\n" + "E há momentos que me pego pensando\n" + "E desejando sonhar com você\n"
+				+ "As vezes eu até tento não pensar\n" + "Pra minha insanidade não se apresentar\n"
+				+ "Desculpe, mas estou escrevendo pelo celular\n" + "Eu disse que iria conversar até você se zangar\n"
+				+ "Mas me segurei para não te irritar com meus assuntos sem noção\n"
+				+ "Mas, nesse quarto vazio, nessa solidão que agora vivo\n" + "Você é como um suspiro, preciso\n"
+				+ "Eu amo você, e me entristece o pensamento de poder te perder\n"
+				+ "E saiba que, quando acordar, em você irei pensar\n" + "E almejar do seu lado estar\n"
+				+ "Desculpe minha ausência, sei que abuso de sua paciência\n" + "Te amo.\n" + "\n"
+				+ "Uma dedicatória, lembrando de sua pele cheirosa\n" + "Sentir suas mãos sedosas e carinhosas\n"
+				+ "Suas curvas volumosas, se preferir, perigosas\n" + "Seu cabelo enrolado, seu beijo apaixonado\n"
+				+ "O brilho do seu sorriso é o que preciso\n" + "Teu corpo que me deixa incontrolável\n"
+				+ "Seu olhar adorável, indomável e implacável\n" + "Não ai de dizer, que não me importo\n"
+				+ "Gostaria mesmo é saber se a conforto o necessário\n"
+				+ "Afinal eu quero que sinta prazer voluntário\n" + "Não quero nada obrigatório\n"
+				+ "Quero no final dos nossos dias, um relatório\n" + "Para saber se, para você, foi satisfatório\n"
+				+ "Poderá dizer que estou sendo simplório\n" + "Desejar te ter, sem o relógio para me deter\n"
+				+ "Não ligo para o quão imaturo posso ser, parecer.\n" + "";
+		Pattern pattern = Pattern.compile(regex);
+		Matcher matcher = pattern.matcher(texto);
+
+		System.out.println("Texto: " + texto);
+		System.out.println("indice: 0123456789 ");
+		System.out.println("Expressão: " + matcher.pattern());
+		System.out.println("Posições encontradas: ");
+		while (matcher.find()) {
+			System.out.println(matcher.start() + " - " + pattern.MULTILINE);
+		}
+		System.out.println();
+
+	}
+}

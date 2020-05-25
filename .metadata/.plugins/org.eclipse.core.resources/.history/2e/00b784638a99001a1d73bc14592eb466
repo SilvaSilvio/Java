@@ -1,0 +1,8 @@
+package PolimorfismoTesteMain;
+
+public class RelatorioPagamento {
+
+	public void relatorioPagamentoGerente( Gerente gerente ) {
+		
+	}
+}

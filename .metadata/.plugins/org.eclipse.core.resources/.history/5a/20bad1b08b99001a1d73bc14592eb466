@@ -1,0 +1,12 @@
+package PolimorfismoTesteMain;
+
+import Polimorfismo.Gerente;
+
+public class PolimorfismoTesteMain {
+
+	public static void main(String[] args) {
+		Gerente g = new Gerente();
+
+	}
+
+}

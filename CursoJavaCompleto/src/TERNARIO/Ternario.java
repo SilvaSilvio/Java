@@ -1,0 +1,12 @@
+package TERNARIO;
+
+public class Ternario {
+
+	public static void main(String[] args) {
+int x = 5;
+
+boolean result = (x == 4) ? true : false;
+System.out.println(result);
+
+	}
+}

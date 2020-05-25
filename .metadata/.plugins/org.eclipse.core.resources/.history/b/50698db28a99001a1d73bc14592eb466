@@ -1,0 +1,12 @@
+package PolimorfismoTesteMain;
+
+import Polimorfismo.Gerente;
+
+public class RelatorioPagamento {
+
+	public void relatorioPagamentoGerente( Gerente gerente ) {
+		System.out.println("Gerando relatório de pagamento para gerencia");
+		gerente.calcularSalario();
+		System.out.println("Nome: " + gerente.getNome());
+	}
+}

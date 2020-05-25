@@ -1,0 +1,50 @@
+package Polimorfismo;
+
+public abstract class Funcionario {
+	protected String nome;
+	protected String clt;
+	protected Double Salario;
+	
+	
+	
+	public Funcionario(String nome, String clt, Double salario) {
+		super();
+		this.nome = nome;
+		this.clt = clt;
+		Salario = salario;
+	}
+	
+	
+	public abstract void  calcularSalario();
+	
+	
+	
+	
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public Double getSalario() {
+		return Salario;
+	}
+
+	public void setSalario(Double salario) {
+		Salario = salario;
+	}
+
+	public String getClt() {
+		return clt;
+	}
+
+	public void setClt(String clt) {
+		this.clt = clt;
+	}
+	
+	
+
+}

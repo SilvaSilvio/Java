@@ -1,0 +1,17 @@
+package SwithCase;
+
+import java.util.Scanner;
+
+public class Swith {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+
+		int x;
+		String dia;
+		
+		System.out.println("Digite o dia da Semana");
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package Produtos;
+
+public class Produtos {
+	public String nome;
+	public double preco;
+	public int quant;
+//	private double valorPago = 0;
+
+	public double calcularProduto() {
+		double valorPago = this.preco * this.quant;
+		return valorPago;
+	}
+
+	public void Status() {
+		System.out.println("Nome: " + nome + " preço: " + preco + "quantidade : " + quant);
+		System.out.println("Total a paga: " + valorPago);
+	}
+
+}

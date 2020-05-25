@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html>
+<ui:composition template="template.xhtml"
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+	<ui:define name="corpo">
+		<h:form id="form">
+			<p:dataTable value="#{pedidoController.pedidos}"
+				var="pedido">
+				<p:column>
+					<p:dataTable value="#{pedido.itens}" var="item">
+						<f:facet name="header">
+							<h:outputText value="#{pedido.dataPedido}">
+								<f:convertDateTime pattern="dd/MM/yyyy" />
+							</h:outputText>
+						</f:facet>
+						<p:column footerText="Total">#{item.livro.titulo}</p:column>
+						<p:column>
+							<h:outputText value="#{item.livro.valor}">
+								<f:convertNumber pattern="###,##0.00" />
+							</h:outputText>
+						</p:column>
+						<p:column>
+							<h:outputText value="#{item.quantidade}"
+								style="width:30px;" />
+						</p:column>
+						<p:column>
+							<h:outputText value="#{item.valor}">
+								<f:convertNumber pattern="###,##0.00" />
+							</h:outputText>
+							<f:facet name="footer">
+								<h:outputText value="#{pedido.valor}">
+									<f:convertNumber pattern="###,##0.00" />
+								</h:outputText>
+							</f:facet>
+						</p:column>
+					</p:dataTable>
+				</p:column>
+			</p:dataTable>
+		</h:form>
+	</ui:define>
+</ui:composition>

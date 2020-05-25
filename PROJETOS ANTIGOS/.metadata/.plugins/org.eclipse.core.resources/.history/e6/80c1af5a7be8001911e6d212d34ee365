@@ -1,0 +1,16 @@
+package Vetores;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class VetorClass {
+public static void main(String[] args) {
+	Locale.setDefault(Locale.US);
+	Scanner scan= new Scanner(System.in);
+	
+	double[] vector = new double[n];
+	
+	
+	scan.close();
+}
+}

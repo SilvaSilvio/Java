@@ -1,0 +1,15 @@
+package ControleFluxoWhile;
+
+public class Exercicio {
+
+	public static void main(String[] args) {
+		int numeros = 0;
+		
+		while( numeros < 100 ) {
+			int resultado = numeros%2 == 0;
+			System.out.println(numeros);
+			
+		}
+	}
+
+}

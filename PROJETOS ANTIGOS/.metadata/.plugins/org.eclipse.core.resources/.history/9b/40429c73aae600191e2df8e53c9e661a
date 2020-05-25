@@ -1,0 +1,13 @@
+package EXERCICIOS;
+
+public class CalculoFuncionario {
+
+	public static void main(String[] args) {
+		
+public int matricula;
+public float horasTrabalhadas;
+public float valorHora;
+
+	}
+
+}

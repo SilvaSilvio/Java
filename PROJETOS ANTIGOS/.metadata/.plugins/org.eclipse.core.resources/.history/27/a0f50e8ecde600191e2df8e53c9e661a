@@ -1,0 +1,13 @@
+package EXERCICIOS;
+
+import java.util.Scanner;
+
+public class CalculaMaiorFuncao {
+
+	public static void main(String[] args) {
+Scanner scan = new Scanner(System.in);
+
+
+	}
+
+}
